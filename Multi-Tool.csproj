@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,16 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Files\main_page.cs">
+    <Compile Include="funcc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Files\main_page.Designer.cs">
-      <DependentUpon>main_page.cs</DependentUpon>
+    <Compile Include="funcc.Designer.cs">
+      <DependentUpon>funcc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Files\signup_page.cs">
+    <Compile Include="signup_page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Files\signup_page.Designer.cs">
+    <Compile Include="signup_page.Designer.cs">
       <DependentUpon>signup_page.cs</DependentUpon>
     </Compile>
     <Compile Include="login_page.cs">
@@ -66,8 +69,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Files\main_page.resx">
-      <DependentUpon>main_page.cs</DependentUpon>
+    <Compile Include="Calculator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Weather.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Weather.Designer.cs">
+      <DependentUpon>Weather.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="funcc.resx">
+      <DependentUpon>funcc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login_page.resx">
       <DependentUpon>login_page.cs</DependentUpon>
@@ -81,9 +96,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Files\signup_page.resx">
+    <EmbeddedResource Include="signup_page.resx">
       <DependentUpon>signup_page.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Weather.resx">
+      <DependentUpon>Weather.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -14,7 +14,6 @@ namespace Multi_Tool
     public partial class login_page : Form
     {
         SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Muhammad Umar\\Documents\\multi_tool.mdf\";Integrated Security=True;Connect Timeout=30");
-        SqlCommand cmd;
         public login_page()
         {
             InitializeComponent();
@@ -23,7 +22,7 @@ namespace Multi_Tool
 
         private void login_page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Signup_Click(object sender, EventArgs e)
@@ -32,6 +31,51 @@ namespace Multi_Tool
             signup_page signup_page = new signup_page();
             signup_page.Show();
         }
+        private void username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string login = "SELECT * FROM users WHERE username=@username AND password=@password";
+            SqlCommand cmd = new SqlCommand(login, con);
+            cmd.Parameters.AddWithValue("@username", Username.Text);
+            cmd.Parameters.AddWithValue("@password", Password.Text);
+
+            SqlDataReader dr = cmd.ExecuteReader();
+
+
+            if (dr.Read() == true)
+            {
+                MessageBox.Show("Welcome to your account");
+
+                this.Hide();
+                MainPage MainPage = new MainPage();
+                MainPage.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("Invalid Username or Password", "Please try again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Username.Text = "";
+                Password.Text = "";
+            }
+            con.Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
         static void CurrentDomain_ProcessExit(object sender, EventArgs e)
         {
         }
