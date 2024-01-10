@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="main_page.cs">
+    <Compile Include="Files\main_page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="main_page.Designer.cs">
+    <Compile Include="Files\main_page.Designer.cs">
       <DependentUpon>main_page.cs</DependentUpon>
     </Compile>
-    <Compile Include="signup_page.cs">
+    <Compile Include="Files\signup_page.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="signup_page.Designer.cs">
+    <Compile Include="Files\signup_page.Designer.cs">
       <DependentUpon>signup_page.cs</DependentUpon>
     </Compile>
     <Compile Include="login_page.cs">
@@ -66,7 +66,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="main_page.resx">
+    <EmbeddedResource Include="Files\main_page.resx">
       <DependentUpon>main_page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login_page.resx">
@@ -81,7 +81,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="signup_page.resx">
+    <EmbeddedResource Include="Files\signup_page.resx">
       <DependentUpon>signup_page.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Multi_Tool
@@ -15,6 +8,10 @@ namespace Multi_Tool
         public MainPage()
         {
             InitializeComponent();
+            AppDomain.CurrentDomain.ProcessExit += CurrentDomain_ProcessExit;
+        }
+        static void CurrentDomain_ProcessExit(object sender, EventArgs e)
+        {
         }
 
         private void label1_Click(object sender, EventArgs e)
