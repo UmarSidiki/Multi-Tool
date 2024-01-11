@@ -36,6 +36,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.time1 = new Multi_Tool.Time();
             this.calculator1 = new Multi_Tool.Calculator();
             this.weather1 = new Multi_Tool.Weather();
             this.panel1.SuspendLayout();
@@ -138,12 +139,22 @@
             this.label1.Text = "Select The Tool";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // time1
+            // 
+            this.time1.Location = new System.Drawing.Point(238, 12);
+            this.time1.Name = "time1";
+            this.time1.Size = new System.Drawing.Size(777, 500);
+            this.time1.TabIndex = 3;
+            this.time1.Visible = false;
+            this.time1.Load += new System.EventHandler(this.time1_Load);
+            // 
             // calculator1
             // 
             this.calculator1.Location = new System.Drawing.Point(238, 12);
             this.calculator1.Name = "calculator1";
             this.calculator1.Size = new System.Drawing.Size(777, 500);
             this.calculator1.TabIndex = 2;
+            this.calculator1.Visible = false;
             this.calculator1.Load += new System.EventHandler(this.calculator1_Load);
             // 
             // weather1
@@ -152,18 +163,21 @@
             this.weather1.Name = "weather1";
             this.weather1.Size = new System.Drawing.Size(777, 500);
             this.weather1.TabIndex = 1;
+            this.weather1.Visible = false;
             // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 517);
+            this.Controls.Add(this.time1);
             this.Controls.Add(this.calculator1);
             this.Controls.Add(this.weather1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "MainPage";
             this.Text = "Multi-Tool Project";
+            this.Load += new System.EventHandler(this.MainPage_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -182,5 +196,6 @@
         private System.Windows.Forms.Button button4;
         private Weather weather1;
         private Calculator calculator1;
+        private Time time1;
     }
 }

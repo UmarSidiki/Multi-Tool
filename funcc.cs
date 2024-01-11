@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace Multi_Tool
@@ -8,7 +9,7 @@ namespace Multi_Tool
         public MainPage()
         {
             InitializeComponent();
-            AppDomain.CurrentDomain.ProcessExit += CurrentDomain_ProcessExit;
+            this.Hide();
         }
         private void label1_Click(object sender, EventArgs e)
         {
@@ -17,7 +18,11 @@ namespace Multi_Tool
 
         private void button2_Click(object sender, EventArgs e)
         {
+            time1.Show();
+            time1.BringToFront();
 
+            weather1.Hide();
+            calculator1.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -26,9 +31,6 @@ namespace Multi_Tool
             login_page login_page = new login_page();
             login_page.Show();
         }
-        static void CurrentDomain_ProcessExit(object sender, EventArgs e)
-        {
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -36,6 +38,7 @@ namespace Multi_Tool
             weather1.BringToFront();
 
             calculator1.Hide();
+            time1.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -44,11 +47,38 @@ namespace Multi_Tool
             calculator1.BringToFront();
 
             weather1.Hide();
+            time1.Hide();
         }
 
         private void calculator1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void time1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainPage_Load(object sender, EventArgs e)
+        {
+
+        }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                // Close all threads before closing the application
+                foreach (ProcessThread thread in Process.GetCurrentProcess().Threads)
+                {
+                    thread.Dispose();
+                }
+
+                // Terminate the application
+                Environment.Exit(0);
+            }
         }
     }
 }

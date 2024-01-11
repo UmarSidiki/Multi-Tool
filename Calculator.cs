@@ -28,10 +28,9 @@ namespace Multi_Tool
         }
         private void UpdateListView()
         {
-            // Clear the existing items in the ListView
+
             listView1.Items.Clear();
 
-            // Add each result to the ListView
             foreach (var result in resultsList)
             {
                 listView1.Items.Add(result.ToString());

@@ -75,6 +75,12 @@
     <Compile Include="Calculator.Designer.cs">
       <DependentUpon>Calculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Time.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Time.Designer.cs">
+      <DependentUpon>Time.cs</DependentUpon>
+    </Compile>
     <Compile Include="Weather.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Time.resx">
+      <DependentUpon>Time.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Weather.resx">
       <DependentUpon>Weather.cs</DependentUpon>

@@ -138,9 +138,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "signup_page";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Multi_Tool Project";
+            this.Load += new System.EventHandler(this.signup_page_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

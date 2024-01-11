@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,6 @@ namespace Multi_Tool
         public signup_page()
         {
             InitializeComponent();
-            AppDomain.CurrentDomain.ProcessExit += CurrentDomain_ProcessExit;
         }
         private void label4_Click(object sender, EventArgs e)
         {
@@ -65,7 +65,7 @@ namespace Multi_Tool
                 MessageBox.Show("Account created successfully!");
 
 
-                this.Hide();
+                this.Close();
                 login_page login_page = new login_page();
                 login_page.Show();
             }
@@ -74,9 +74,25 @@ namespace Multi_Tool
                 MessageBox.Show("Please check your input and try again.");
             }
         }
-
-        static void CurrentDomain_ProcessExit(object sender, EventArgs e)
+        private void signup_page_Load(object sender, EventArgs e)
         {
+
+        }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                // Close all threads before closing the application
+                foreach (ProcessThread thread in Process.GetCurrentProcess().Threads)
+                {
+                    thread.Dispose();
+                }
+
+                // Terminate the application
+                Environment.Exit(0);
+            }
         }
     }
 }
