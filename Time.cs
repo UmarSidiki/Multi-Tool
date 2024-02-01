@@ -15,7 +15,7 @@ namespace Multi_Tool
     public partial class Time : UserControl
     {
         Timer timer = new Timer();
-        private const string ApiKey = "49a7c57f5074bf490deec15724a40acb";
+        private const string ApiKey = "YOUR_API_KEY";
         HttpClient client = new HttpClient();
         public Time()
         {
