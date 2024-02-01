@@ -9,7 +9,7 @@ namespace Multi_Tool
     public partial class Weather : UserControl
     {
         private readonly HttpClient _client = new HttpClient();
-        private const string ApiKey = "49a7c57f5074bf490deec15724a40acb";
+        private const string ApiKey = "YOUR_API_KEY";
         public Weather()
         {
             InitializeComponent();
