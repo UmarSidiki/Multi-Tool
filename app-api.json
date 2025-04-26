@@ -1,0 +1,212 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "en": {
+        "name": "Standard Cleaning",
+        "shortDescription": "Regular home cleaning service",
+        "description": "Our standard cleaning service includes dusting, vacuuming, mopping, and bathroom cleaning. Perfect for maintaining a clean and comfortable home environment on a regular basis.",
+        "priceUnit": "per visit",
+        "features": [
+          "Dusting all accessible surfaces",
+          "Vacuuming floors and carpets",
+          "Mopping hard floors",
+          "Cleaning bathrooms (toilets, showers, tubs, sinks)",
+          "Kitchen cleaning (countertops, sinks, appliance exteriors)",
+          "Empty trash bins"
+        ]
+      },
+      "nl": {
+        "name": "Standaard Schoonmaak",
+        "shortDescription": "Reguliere huisschoonmaakservice",
+        "description": "Onze standaard schoonmaakservice omvat afstoffen, stofzuigen, dweilen en badkamer schoonmaken. Perfect voor het onderhouden van een schone en comfortabele woonomgeving op regelmatige basis.",
+        "priceUnit": "per bezoek",
+        "features": [
+          "Afstoffen van alle toegankelijke oppervlakken",
+          "Stofzuigen van vloeren en tapijten",
+          "Dweilen van harde vloeren",
+          "Schoonmaken van badkamers (toiletten, douches, baden, wastafels)",
+          "Keuken schoonmaken (aanrechtbladen, wastafels, buitenkant apparaten)",
+          "Prullenbakken legen"
+        ]
+      },
+      "price": 80,
+      "imageUrl": "assets/images/standard_cleaning.jpg"
+    },
+    {
+      "id": "2",
+      "en": {
+        "name": "Deep Cleaning",
+        "shortDescription": "Thorough cleaning of your entire home",
+        "description": "Our deep cleaning service is a comprehensive cleaning package that reaches every corner of your home. Ideal for seasonal cleaning or before/after events.",
+        "priceUnit": "per visit",
+        "features": [
+          "All standard cleaning services",
+          "Inside window cleaning",
+          "Inside cabinet cleaning",
+          "Baseboard and door cleaning",
+          "Ceiling fan and light fixture dusting",
+          "Detailed bathroom cleaning including scale removal",
+          "Appliance interior cleaning"
+        ]
+      },
+      "nl": {
+        "name": "Dieptereiniging",
+        "shortDescription": "Grondige reiniging van uw hele huis",
+        "description": "Onze dieptereiniging is een uitgebreid schoonmaakpakket dat elke hoek van uw huis bereikt. Ideaal voor seizoensgebonden schoonmaak of voor/na evenementen.",
+        "priceUnit": "per bezoek",
+        "features": [
+          "Alle standaard schoonmaakdiensten",
+          "Ramen binnenzijde schoonmaken",
+          "Binnenkant van kasten schoonmaken",
+          "Plinten en deuren schoonmaken",
+          "Plafondventilators en lamparmaturen afstoffen",
+          "Gedetailleerde badkamerreiniging inclusief kalkverwijdering",
+          "Reiniging binnenkant apparaten"
+        ]
+      },
+      "price": 160,
+      "imageUrl": "assets/images/deep_cleaning.jpg"
+    },
+    {
+      "id": "3",
+      "en": {
+        "name": "Move In/Out Cleaning",
+        "shortDescription": "Prepare your home for new residents",
+        "description": "Our move in/out cleaning ensures your new home is pristine before you settle in, or that you leave your old home spotless for the next residents.",
+        "priceUnit": "per service",
+        "features": [
+          "All deep cleaning services",
+          "Cleaning inside all cupboards and drawers",
+          "Cleaning inside all appliances including oven",
+          "Garage sweeping",
+          "Removal of all cleaning debris",
+          "Window cleaning",
+          "Detailed floor cleaning"
+        ]
+      },
+      "nl": {
+        "name": "Verhuisschoonmaak",
+        "shortDescription": "Bereid uw woning voor op nieuwe bewoners",
+        "description": "Onze verhuisschoonmaak zorgt ervoor dat uw nieuwe huis onberispelijk is voordat u er intrekt, of dat u uw oude huis vlekkeloos achterlaat voor de volgende bewoners.",
+        "priceUnit": "per service",
+        "features": [
+          "Alle dieptereiniging diensten",
+          "Schoonmaken binnenkant van alle kasten en laden",
+          "Schoonmaken binnenkant van alle apparaten inclusief oven",
+          "Garage vegen",
+          "Verwijdering van alle schoonmaakafval",
+          "Ramen wassen",
+          "Gedetailleerde vloerreiniging"
+        ]
+      },
+      "price": 220,
+      "imageUrl": "assets/images/move_in_out.jpg"
+    },
+    {
+      "id": "4",
+      "en": {
+        "name": "Office Cleaning",
+        "shortDescription": "Professional cleaning for workspaces",
+        "description": "Keep your workplace clean and healthy with our professional office cleaning service. We work around your schedule to minimize disruption.",
+        "priceUnit": "per visit",
+        "features": [
+          "Dusting all surfaces including desks and equipment",
+          "Vacuuming and mopping floors",
+          "Bathroom cleaning and sanitizing",
+          "Kitchen/break room cleaning",
+          "Glass partition cleaning",
+          "Trash removal",
+          "Optional green cleaning products"
+        ]
+      },
+      "nl": {
+        "name": "Kantoorschoonmaak",
+        "shortDescription": "Professionele reiniging voor werkruimtes",
+        "description": "Houd uw werkplek schoon en gezond met onze professionele kantoorschoonmaakservice. We werken rond uw planning om verstoring te minimaliseren.",
+        "priceUnit": "per bezoek",
+        "features": [
+          "Afstoffen van alle oppervlakken inclusief bureaus en apparatuur",
+          "Stofzuigen en dweilen van vloeren",
+          "Badkamer schoonmaken en ontsmetten",
+          "Keuken/kantine schoonmaken",
+          "Glazen scheidingswanden reinigen",
+          "Afval verwijderen",
+          "Optioneel groene schoonmaakproducten"
+        ]
+      },
+      "price": 120,
+      "imageUrl": "assets/images/office_cleaning.jpg"
+    },
+    {
+      "id": "5",
+      "en": {
+        "name": "Carpet Cleaning",
+        "shortDescription": "Deep cleaning for carpets and rugs",
+        "description": "Revitalize your carpets and remove deep-set dirt, allergens, and stains with our professional carpet cleaning service.",
+        "priceUnit": "per room",
+        "features": [
+          "Pre-treatment of high-traffic areas and stains",
+          "Hot water extraction cleaning",
+          "Eco-friendly cleaning solutions available",
+          "Deodorizing treatment",
+          "Quick-dry technology",
+          "Furniture moving (small items)",
+          "Post-cleaning carpet grooming"
+        ]
+      },
+      "nl": {
+        "name": "Tapijtreiniging",
+        "shortDescription": "Dieptereiniging voor tapijten en vloerkleden",
+        "description": "Geef uw tapijten nieuw leven en verwijder diepgeworteld vuil, allergenen en vlekken met onze professionele tapijtreiniging.",
+        "priceUnit": "per kamer",
+        "features": [
+          "Voorbehandeling van drukbelopen gebieden en vlekken",
+          "Reiniging met heetwaterextractie",
+          "Milieuvriendelijke reinigingsoplossingen beschikbaar",
+          "Geurbehandeling",
+          "Sneldrogende technologie",
+          "Verplaatsen van meubels (kleine items)",
+          "Nabehandeling van tapijt"
+        ]
+      },
+      "price": 90,
+      "imageUrl": "assets/images/carpet_cleaning.jpg"
+    },
+    {
+      "id": "6",
+      "en": {
+        "name": "Window Cleaning",
+        "shortDescription": "Crystal clear windows inside and out",
+        "description": "Our professional window cleaning service removes dirt, smudges, and water spots for perfectly clear windows that let the light shine in.",
+        "priceUnit": "per window",
+        "features": [
+          "Interior and exterior window cleaning",
+          "Screen cleaning",
+          "Sill and track cleaning",
+          "Streak-free cleaning solution",
+          "Hard water spot removal",
+          "Window frame wiping",
+          "Up to 3 stories high"
+        ]
+      },
+      "nl": {
+        "name": "Glazenwassen",
+        "shortDescription": "Kristalheldere ramen binnen en buiten",
+        "description": "Onze professionele glazenwasservice verwijdert vuil, vegen en watervlekken voor perfect heldere ramen die het licht laten binnenschijnen.",
+        "priceUnit": "per raam",
+        "features": [
+          "Binnen- en buitenzijde ramen wassen",
+          "Horren schoonmaken",
+          "Vensterbank en rails schoonmaken",
+          "Streepvrije reinigingsoplossing",
+          "Verwijdering van hardwatervlekken",
+          "Raamkozijnen afnemen",
+          "Tot 3 verdiepingen hoog"
+        ]
+      },
+      "price": 8,
+      "imageUrl": "assets/images/window_cleaning.jpg"
+    }
+  ]
+}
