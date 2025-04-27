@@ -29,7 +29,7 @@
         ]
       },
       "price": 35,
-      "imageUrl": "assets/images/house_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/6195274/pexels-photo-6195274.jpeg"
     },
     {
       "id": "2",
@@ -60,7 +60,7 @@
         ]
       },
       "price": 180,
-      "imageUrl": "assets/images/deep_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/28576625/pexels-photo-28576625.jpeg"
     },
     {
       "id": "3",
@@ -91,7 +91,7 @@
         ]
       },
       "price": 250,
-      "imageUrl": "assets/images/renovation_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/3177257/pexels-photo-3177257.jpeg"
     },
     {
       "id": "4",
@@ -124,7 +124,7 @@
         ]
       },
       "price": 150,
-      "imageUrl": "assets/images/office_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/12091690/pexels-photo-12091690.jpeg"
     },
     {
       "id": "5",
@@ -155,9 +155,9 @@
         ]
       },
       "price": 280,
-      "imageUrl": "assets/images/end_of_tenancy.jpg"
+      "imageUrl": "https://images.pexels.com/photos/9462341/pexels-photo-9462341.jpeg"
     },
-     {
+    {
       "id": "6",
       "en": {
         "name": "Bathroom Cleaning Service",
@@ -192,7 +192,7 @@
         ]
       },
       "price": 60,
-      "imageUrl": "assets/images/bathroom_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/3867598/pexels-photo-3867598.jpeg"
     },
     {
       "id": "7",
@@ -202,14 +202,14 @@
         "description": "Detailed cleaning service for kitchens, including appliances and surfaces.",
         "priceUnit": "per service",
         "features": [
-           "Wall dusting / spot cleaning",
-           "Floor cleaning & mopping",
-           "Cleaning appliance exteriors (fridge, stove, dishwasher)",
-           "Cabinet front cleaning",
-           "Deep cleaning of the oven (interior)",
-           "Cleaning the stovetop and hood fan",
-           "Refrigerator cleaning (interior optional)",
-           "Sink and countertop sanitation"
+          "Wall dusting / spot cleaning",
+          "Floor cleaning & mopping",
+          "Cleaning appliance exteriors (fridge, stove, dishwasher)",
+          "Cabinet front cleaning",
+          "Deep cleaning of the oven (interior)",
+          "Cleaning the stovetop and hood fan",
+          "Refrigerator cleaning (interior optional)",
+          "Sink and countertop sanitation"
         ]
       },
       "nl": {
@@ -229,7 +229,7 @@
         ]
       },
       "price": 120,
-      "imageUrl": "assets/images/kitchen_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/10567360/pexels-photo-10567360.jpeg"
     },
     {
       "id": "8",
@@ -264,7 +264,7 @@
         ]
       },
       "price": 50,
-      "imageUrl": "assets/images/living_room_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/9462144/pexels-photo-9462144.jpeg"
     },
     {
       "id": "9",
@@ -299,7 +299,7 @@
         ]
       },
       "price": 45,
-      "imageUrl": "assets/images/bedroom_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/5331118/pexels-photo-5331118.jpeg"
     },
     {
       "id": "10",
@@ -309,12 +309,12 @@
         "description": "Ensure your new home is spotless before you move in. A comprehensive clean for a fresh start.",
         "priceUnit": "per property",
         "features": [
-           "Full deep cleaning of entire property",
-           "Sanitization of bathrooms and kitchen",
-           "Cleaning inside all cabinets, closets, drawers",
-           "Washing floors, walls, baseboards",
-           "Window cleaning"
-          ]
+          "Full deep cleaning of entire property",
+          "Sanitization of bathrooms and kitchen",
+          "Cleaning inside all cabinets, closets, drawers",
+          "Washing floors, walls, baseboards",
+          "Window cleaning"
+        ]
       },
       "nl": {
         "name": "Inhuisschoonmaakdiensten",
@@ -322,17 +322,17 @@
         "description": "Zorg ervoor dat uw nieuwe huis vlekkeloos is voordat u erin trekt. Een uitgebreide schoonmaak voor een frisse start.",
         "priceUnit": "per woning",
         "features": [
-            "Volledige dieptereiniging van de gehele woning",
-            "Ontsmetting van badkamers en keuken",
-            "Reinigen binnenkant van alle kasten, kasten, laden",
-            "Wassen van vloeren, muren, plinten",
-            "Glazenwassen"
-          ]
+          "Volledige dieptereiniging van de gehele woning",
+          "Ontsmetting van badkamers en keuken",
+          "Reinigen binnenkant van alle kasten, kasten, laden",
+          "Wassen van vloeren, muren, plinten",
+          "Glazenwassen"
+        ]
       },
       "price": 270,
-      "imageUrl": "assets/images/move_in_cleaning.jpg"
+      "imageUrl": "https://images.pexels.com/photos/8055202/pexels-photo-8055202.jpeg"
     },
-     {
+    {
       "id": "11",
       "en": {
         "name": "Window Cleaning",
@@ -359,7 +359,7 @@
         ]
       },
       "price": 7,
-      "imageUrl": "assets/images/window_cleaning_service.jpg"
+      "imageUrl": "https://images.pexels.com/photos/27264217/pexels-photo-27264217.jpeg"
     },
     {
       "id": "12",
@@ -388,7 +388,7 @@
         ]
       },
       "price": 5,
-      "imageUrl": "assets/images/pressure_washing.jpg"
+      "imageUrl": "https://images.pexels.com/photos/5652626/pexels-photo-5652626.jpeg"
     },
     {
       "id": "13",
@@ -417,7 +417,7 @@
         ]
       },
       "price": 75,
-      "imageUrl": "assets/images/carpet_cleaning_service.jpg"
+      "imageUrl": "https://images.pexels.com/photos/9462144/pexels-photo-9462144.jpeg"
     },
     {
       "id": "14",
@@ -445,8 +445,8 @@
           "Geurverwijdering"
         ]
       },
-      "price": 80, // Example price per sofa
-      "imageUrl": "assets/images/upholstery_cleaning.jpg"
+      "price": 80,
+      "imageUrl": "https://images.pexels.com/photos/4401538/pexels-photo-4401538.jpeg"
     }
   ]
 }
