@@ -5,38 +5,62 @@
       "en": {
         "name": "House Cleaning Service",
         "shortDescription": "Professional cleaning for residential spaces",
-        "description": "Match & Clean Bureau offers professional cleaning services tailored to the needs of residential spaces.",
-        "priceUnit": null,
-        "features": []
+        "description": "Match & Clean Bureau offers professional cleaning services tailored to the needs of residential spaces. Ideal for regular upkeep.",
+        "priceUnit": "per hour",
+        "features": [
+          "General dusting and surface wiping",
+          "Vacuuming/mopping floors",
+          "Basic bathroom cleaning (toilet, sink)",
+          "Basic kitchen cleaning (counters, sink)",
+          "Emptying trash bins"
+        ]
       },
       "nl": {
         "name": "Schoonmaakdienst voor woningen",
         "shortDescription": "Professionele schoonmaak voor woonruimtes",
-        "description": "Match & Clean Bureau biedt professionele schoonmaakdiensten afgestemd op de behoeften van woonruimtes.",
-        "priceUnit": null,
-        "features": []
+        "description": "Match & Clean Bureau biedt professionele schoonmaakdiensten afgestemd op de behoeften van woonruimtes. Ideaal voor regulier onderhoud.",
+        "priceUnit": "per uur",
+        "features": [
+          "Algemeen afstoffen en oppervlakken afnemen",
+          "Stofzuigen/dweilen van vloeren",
+          "Basis badkamerreiniging (toilet, wastafel)",
+          "Basis keukenreiniging (aanrecht, gootsteen)",
+          "Legen van prullenbakken"
+        ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 35,
+      "imageUrl": "assets/images/house_cleaning.jpg"
     },
     {
       "id": "2",
       "en": {
         "name": "Deep Cleaning Service",
         "shortDescription": "Thorough cleaning beyond standard",
-        "description": "For a thorough cleaning that goes beyond standard cleaning, aimed at removing stubborn dirt and bacteria.",
-        "priceUnit": null,
-        "features": []
+        "description": "For a thorough cleaning that goes beyond standard cleaning, aimed at removing stubborn dirt and bacteria. Recommended seasonally.",
+        "priceUnit": "per visit",
+        "features": [
+          "Includes all standard cleaning tasks",
+          "Detailed dusting including baseboards, vents",
+          "Deep scrub of bathrooms (tile, grout)",
+          "Deep clean of kitchen (appliance exteriors, inside microwave)",
+          "Washing interior windows"
+        ]
       },
       "nl": {
         "name": "Diepe Schoonmaakdienst",
         "shortDescription": "Grondige reiniging die verder gaat dan standaard",
-        "description": "Voor een grondige reiniging die verder gaat dan de standaard schoonmaak, gericht op het verwijderen van hardnekkig vuil en bacteriën.",
-        "priceUnit": null,
-        "features": []
+        "description": "Voor een grondige reiniging die verder gaat dan de standaard schoonmaak, gericht op het verwijderen van hardnekkig vuil en bacteriën. Seizoensgebonden aanbevolen.",
+        "priceUnit": "per bezoek",
+        "features": [
+          "Omvat alle standaard schoonmaaktaken",
+          "Gedetailleerd afstoffen inclusief plinten, ventilatieopeningen",
+          "Grondig schrobben van badkamers (tegels, voegen)",
+          "Diepe reiniging van keuken (buitenkant apparaten, binnenkant magnetron)",
+          "Wassen van binnenramen"
+        ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 180,
+      "imageUrl": "assets/images/deep_cleaning.jpg"
     },
     {
       "id": "3",
@@ -44,309 +68,385 @@
         "name": "Cleaning After Renovation",
         "shortDescription": "Post-construction cleanup service",
         "description": "Match & Clean Bureau specializes in post-construction cleanup, offering a team of professional cleaners equipped to handle everything from dust removal to removing renovation debris.",
-        "priceUnit": null,
+        "priceUnit": "per service",
         "features": [
-          "Dust removal",
-          "Renovation debris removal"
+          "Heavy dust removal from all surfaces",
+          "Cleaning of paint/plaster spots",
+          "Window and frame cleaning",
+          "Floor scrubbing and polishing",
+          "Removal of construction debris"
         ]
       },
       "nl": {
         "name": "Schoonmaak na Renovatie",
         "shortDescription": "Opruimservice na de bouw",
         "description": "Match & Clean Bureau is gespecialiseerd in de opruiming na de bouw en biedt een team van professionele schoonmakers die uitgerust zijn om alles aan te pakken, van het verwijderen van stof tot het verwijderen van renovatieresten.",
-        "priceUnit": null,
+        "priceUnit": "per service",
         "features": [
-          "Verwijderen van stof",
-          "Verwijderen van renovatieresten"
+          "Verwijdering van zwaar stof van alle oppervlakken",
+          "Reiniging van verf-/pleistervlekken",
+          "Raam- en kozijnreiniging",
+          "Vloer schrobben en polijsten",
+          "Verwijdering van bouwafval"
         ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 250,
+      "imageUrl": "assets/images/renovation_cleaning.jpg"
     },
     {
       "id": "4",
       "en": {
         "name": "Office Cleaning Service",
         "shortDescription": "Professional cleaning for commercial spaces",
-        "description": "Match & Clean Bureau offers professional cleaning services tailored to the needs of commercial spaces.",
-        "priceUnit": null,
-        "features": []
+        "description": "Match & Clean Bureau offers professional cleaning services tailored to the needs of commercial spaces. Flexible scheduling available.",
+        "priceUnit": "per visit",
+        "features": [
+          "Dusting desks, chairs, and equipment",
+          "Vacuuming carpets and mopping floors",
+          "Cleaning and sanitizing restrooms",
+          "Cleaning breakrooms/kitchenettes",
+          "Emptying all trash receptacles",
+          "Wiping down entrance glass/doors"
+        ]
       },
       "nl": {
         "name": "Schoonmaakdienst voor kantoor",
         "shortDescription": "Professionele schoonmaak voor commerciële ruimtes",
-        "description": "Match & Clean Bureau biedt professionele schoonmaakdiensten afgestemd op de behoeften van commerciële ruimtes.",
-        "priceUnit": null,
-        "features": []
+        "description": "Match & Clean Bureau biedt professionele schoonmaakdiensten afgestemd op de behoeften van commerciële ruimtes. Flexibele planning beschikbaar.",
+        "priceUnit": "per bezoek",
+        "features": [
+          "Afstoffen van bureaus, stoelen en apparatuur",
+          "Stofzuigen van tapijten en dweilen van vloeren",
+          "Reinigen en ontsmetten van toiletten",
+          "Schoonmaken van pauzeruimtes/kitchenettes",
+          "Legen van alle prullenbakken",
+          "Afvegen van entreeglas/deuren"
+        ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 150,
+      "imageUrl": "assets/images/office_cleaning.jpg"
     },
     {
       "id": "5",
       "en": {
         "name": "End of Tenancy Cleaning",
         "shortDescription": "Deep cleaning for rental properties",
-        "description": "For both landlords and tenants, we offer a deep cleaning of rental properties that ensures an impeccable environment for the new residents.",
-        "priceUnit": null,
+        "description": "For both landlords and tenants, we offer a deep cleaning of rental properties that ensures an impeccable environment for the new residents. Helps secure deposit return.",
+        "priceUnit": "per property",
         "features": [
-          "Deep cleaning for landlords",
-          "Deep cleaning for tenants"
+          "Full deep cleaning service",
+          "Inside oven and refrigerator cleaning",
+          "Cleaning inside cabinets and drawers",
+          "Washing walls and baseboards",
+          "Detailed bathroom and kitchen sanitation"
         ]
       },
       "nl": {
         "name": "Eindschoonmaak",
         "shortDescription": "Dieptereiniging voor huurwoningen",
-        "description": "Voor zowel verhuurders als huurders bieden wij een dieptereiniging van huurwoningen die zorgt voor een onberispelijke omgeving voor de nieuwe bewoners.",
-        "priceUnit": null,
+        "description": "Voor zowel verhuurders als huurders bieden wij een dieptereiniging van huurwoningen die zorgt voor een onberispelijke omgeving voor de nieuwe bewoners. Helpt bij het veiligstellen van de borg.",
+        "priceUnit": "per woning",
         "features": [
-          "Dieptereiniging voor verhuurders",
-          "Dieptereiniging voor huurders"
+          "Volledige dieptereiniging service",
+          "Binnenkant oven en koelkast reinigen",
+          "Binnenkant kasten en laden schoonmaken",
+          "Muren en plinten wassen",
+          "Gedetailleerde badkamer- en keukenhygiëne"
         ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 280,
+      "imageUrl": "assets/images/end_of_tenancy.jpg"
     },
      {
       "id": "6",
       "en": {
         "name": "Bathroom Cleaning Service",
         "shortDescription": "Detailed bathroom cleaning",
-        "description": "Comprehensive cleaning service for bathrooms.",
-        "priceUnit": null,
+        "description": "Comprehensive cleaning service specifically for bathrooms, focusing on sanitation and shine.",
+        "priceUnit": "per bathroom",
         "features": [
           "Tile scrubbing and grout cleaning",
           "Mirror polishing",
           "Sink and counter disinfection",
-          "Bath and shower scrubbing",
+          "Bath and shower scrubbing (including doors)",
           "Shower head descaling",
-          "Toilet cleaning and disinfection",
-          "Cabinet cleaning (inside and out)",
+          "Toilet cleaning and disinfection (inside and out)",
+          "Cabinet exterior cleaning",
           "Floor washing and mopping"
         ]
       },
       "nl": {
         "name": "Badkamerreiniging",
         "shortDescription": "Gedetailleerde badkamerreiniging",
-        "description": "Uitgebreide schoonmaakservice voor badkamers.",
-        "priceUnit": null,
+        "description": "Uitgebreide schoonmaakservice specifiek voor badkamers, gericht op hygiëne en glans.",
+        "priceUnit": "per badkamer",
         "features": [
           "Tegel schrobben en voegreiniging",
           "Spiegels polijsten",
           "Gootsteen en aanrecht desinfecteren",
-          "Bad en douche schrobben",
+          "Bad en douche schrobben (inclusief deuren)",
           "Douchekop ontkalken",
-          "Toilet reinigen en desinfecteren",
-          "Kastreiniging (binnen en buiten)",
+          "Toilet reinigen en desinfecteren (binnen- en buitenkant)",
+          "Buitenkant kasten schoonmaken",
           "Vloer wassen en dweilen"
         ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 60,
+      "imageUrl": "assets/images/bathroom_cleaning.jpg"
     },
     {
       "id": "7",
       "en": {
         "name": "Kitchen Cleaning",
         "shortDescription": "Comprehensive kitchen cleaning",
-        "description": "Detailed cleaning service for kitchens.",
-        "priceUnit": null,
+        "description": "Detailed cleaning service for kitchens, including appliances and surfaces.",
+        "priceUnit": "per service",
         "features": [
-           "Wall dusting",
+           "Wall dusting / spot cleaning",
            "Floor cleaning & mopping",
-           "Internal and external windows",
-           "Cabinet cleaning (front and top)",
-           "Deep cleaning of the oven",
-           "Cleaning the stove",
-           "Refrigerator cleaning (inside and out)"
+           "Cleaning appliance exteriors (fridge, stove, dishwasher)",
+           "Cabinet front cleaning",
+           "Deep cleaning of the oven (interior)",
+           "Cleaning the stovetop and hood fan",
+           "Refrigerator cleaning (interior optional)",
+           "Sink and countertop sanitation"
         ]
       },
       "nl": {
         "name": "Keukenreiniging",
         "shortDescription": "Uitgebreide keukenreiniging",
-        "description": "Gedetailleerde schoonmaakservice voor keukens.",
-        "priceUnit": null,
+        "description": "Gedetailleerde schoonmaakservice voor keukens, inclusief apparaten en oppervlakken.",
+        "priceUnit": "per service",
         "features": [
-          "Muur afstoffen",
+          "Muur afstoffen / vlekken verwijderen",
           "Vloer reinigen & dweilen",
-          "Interne en externe ramen",
-          "Kastreiniging (voorzijde en bovenkant)",
-          "Dieptereiniging van de oven",
-          "Reiniging van het fornuis",
-          "Koelkastreiniging (binnen en buiten)"
+          "Buitenkant apparaten reinigen (koelkast, fornuis, vaatwasser)",
+          "Voorkant kasten schoonmaken",
+          "Dieptereiniging van de oven (binnenkant)",
+          "Reiniging van kookplaat en afzuigkap",
+          "Koelkastreiniging (binnenkant optioneel)",
+          "Gootsteen en aanrechtblad hygiëne"
         ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 120,
+      "imageUrl": "assets/images/kitchen_cleaning.jpg"
     },
-        {
+    {
       "id": "8",
       "en": {
         "name": "Living Room Cleaning",
         "shortDescription": "Detailed living room cleaning",
-        "description": "Cleaning service for living room areas.",
-        "priceUnit": null,
+        "description": "Cleaning service focused on living and common room areas.",
+        "priceUnit": "per room",
         "features": [
-          "Vacuuming carpets and removing stains",
+          "Vacuuming carpets/rugs and removing stains",
           "Dusting and polishing furniture",
-          "Dusting and cleaning ornaments",
-          "Fireplace cleaning (if present)",
-          "Vacuuming curtains and blinds",
-          "Cleaning lighting",
-          "Cleaning window frames and sills"
+          "Dusting electronics and ornaments",
+          "Fireplace exterior cleaning (if present)",
+          "Vacuuming upholstery and curtains/blinds",
+          "Cleaning lighting fixtures",
+          "Wiping window frames and sills"
         ]
       },
       "nl": {
         "name": "Woonkamerreiniging",
         "shortDescription": "Gedetailleerde woonkamerreiniging",
-        "description": "Schoonmaakservice voor woonkamerruimtes.",
-        "priceUnit": null,
+        "description": "Schoonmaakservice gericht op woon- en gemeenschappelijke ruimtes.",
+        "priceUnit": "per kamer",
         "features": [
-          "Tapijt stofzuigen en vlekken verwijderen",
+          "Tapijt/kleden stofzuigen en vlekken verwijderen",
           "Meubels afstoffen en polijsten",
-          "Ornamenten afstoffen en reinigen",
-          "Haardreiniging (indien aanwezig)",
-          "Gordijnen en lamellen stofzuigen",
-          "Verlichting schoonmaken",
-          "Raamkozijnen en vensterbanken reinigen"
+          "Elektronica en ornamenten afstoffen",
+          "Buitenkant haard reinigen (indien aanwezig)",
+          "Bekleding en gordijnen/jaloezieën stofzuigen",
+          "Verlichtingsarmaturen schoonmaken",
+          "Raamkozijnen en vensterbanken afnemen"
         ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 50,
+      "imageUrl": "assets/images/living_room_cleaning.jpg"
     },
     {
       "id": "9",
       "en": {
         "name": "Bedroom Cleaning",
         "shortDescription": "Bedroom tidying and cleaning",
-        "description": "Cleaning service for bedrooms.",
-        "priceUnit": null,
+        "description": "Cleaning service focused on bedrooms for a fresh and tidy space.",
+        "priceUnit": "per room",
         "features": [
-          "Making beds and changing bedding",
-          "Vacuuming and mopping floors",
-          "Cleaning cabinets (front, top)",
-          "Light dusting of all surfaces",
-          "Cleaning windows (internal)",
-          "Cleaning mirrors",
+          "Making beds (changing bedding if provided)",
+          "Vacuuming/mopping floors",
+          "Dusting all surfaces (nightstands, dressers)",
+          "Cleaning mirrors and window interiors",
           "Polishing furniture",
-          "Cleaning lighting",
-          "Removing garbage"
+          "Cleaning light fixtures",
+          "Emptying trash bins"
         ]
       },
       "nl": {
         "name": "Slaapkamerreiniging",
         "shortDescription": "Slaapkamer opruimen en schoonmaken",
-        "description": "Schoonmaakservice voor slaapkamers.",
-        "priceUnit": null,
+        "description": "Schoonmaakservice gericht op slaapkamers voor een frisse en opgeruimde ruimte.",
+        "priceUnit": "per kamer",
         "features": [
-          "Bed opmaken en beddengoed vervangen",
-          "Vloer stofzuigen en dweilen",
-          "Kast reinigen (voorzijde, bovenkant)",
-          "Licht afstoffen van alle oppervlakken",
-          "Ramen reinigen (intern)",
-          "Spiegels reinigen",
+          "Bed opmaken (beddengoed verschonen indien aangeleverd)",
+          "Vloer stofzuigen/dweilen",
+          "Alle oppervlakken afstoffen (nachtkastjes, commodes)",
+          "Spiegels en binnenkant ramen schoonmaken",
           "Meubels polijsten",
-          "Verlichting schoonmaken",
-          "Vuilnis verwijderen"
+          "Lichtarmaturen schoonmaken",
+          "Prullenbakken legen"
         ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 45,
+      "imageUrl": "assets/images/bedroom_cleaning.jpg"
     },
     {
       "id": "10",
       "en": {
-        "name": "Move-In & Move-Out Cleaning Services",
-        "shortDescription": "Cleaning for moving transitions",
-        "description": "Whether you're moving into a new home or preparing for the end of a lease, our professional cleaners are ready to ensure a smooth transition.",
-        "priceUnit": null,
-        "features": []
+        "name": "Move-In Cleaning Services",
+        "shortDescription": "Cleaning for moving into a new home",
+        "description": "Ensure your new home is spotless before you move in. A comprehensive clean for a fresh start.",
+        "priceUnit": "per property",
+        "features": [
+           "Full deep cleaning of entire property",
+           "Sanitization of bathrooms and kitchen",
+           "Cleaning inside all cabinets, closets, drawers",
+           "Washing floors, walls, baseboards",
+           "Window cleaning"
+          ]
       },
       "nl": {
-        "name": "Move-In & Move-Out Schoonmaakdiensten",
-        "shortDescription": "Schoonmaak voor verhuisovergangen",
-        "description": "Of je nu in een nieuw huis gaat wonen of je voorbereidt op het einde van een huurcontract, onze professionele schoonmakers staan klaar om een vlotte overgang te garanderen.",
-        "priceUnit": null,
-        "features": []
+        "name": "Inhuisschoonmaakdiensten",
+        "shortDescription": "Schoonmaak voor het betrekken van een nieuwe woning",
+        "description": "Zorg ervoor dat uw nieuwe huis vlekkeloos is voordat u erin trekt. Een uitgebreide schoonmaak voor een frisse start.",
+        "priceUnit": "per woning",
+        "features": [
+            "Volledige dieptereiniging van de gehele woning",
+            "Ontsmetting van badkamers en keuken",
+            "Reinigen binnenkant van alle kasten, kasten, laden",
+            "Wassen van vloeren, muren, plinten",
+            "Glazenwassen"
+          ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 270,
+      "imageUrl": "assets/images/move_in_cleaning.jpg"
     },
-    {
+     {
       "id": "11",
       "en": {
         "name": "Window Cleaning",
-        "shortDescription": "Window washing service",
-        "description": "Professional window cleaning service.",
-        "priceUnit": null,
-        "features": []
+        "shortDescription": "Interior & Exterior window washing",
+        "description": "Professional window cleaning service for streak-free results.",
+        "priceUnit": "per window pane",
+        "features": [
+          "Interior window washing",
+          "Exterior window washing",
+          "Screen cleaning (optional)",
+          "Sill and track wiping"
+        ]
       },
       "nl": {
         "name": "Raamreiniging",
-        "shortDescription": "Glazenwasserservice",
-        "description": "Professionele glazenwasserservice.",
-        "priceUnit": null,
-        "features": []
+        "shortDescription": "Binnen- & buitenkant glazenwassen",
+        "description": "Professionele glazenwasserservice voor streeploze resultaten.",
+        "priceUnit": "per ruit",
+        "features": [
+          "Binnenkant ramen wassen",
+          "Buitenkant ramen wassen",
+          "Horren reinigen (optioneel)",
+          "Vensterbanken en rails afnemen"
+        ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 7,
+      "imageUrl": "assets/images/window_cleaning_service.jpg"
     },
     {
       "id": "12",
       "en": {
         "name": "High-pressure Cleaning",
         "shortDescription": "Pressure washing service",
-        "description": "Cleaning surfaces using high-pressure water.",
-        "priceUnit": null,
-        "features": []
+        "description": "Cleaning exterior surfaces like driveways, patios, and siding using high-pressure water.",
+        "priceUnit": "per square meter",
+        "features": [
+          "Driveway and walkway cleaning",
+          "Patio and deck washing",
+          "Exterior siding cleaning",
+          "Fence cleaning"
+        ]
       },
       "nl": {
         "name": "Hogedrukreiniging",
         "shortDescription": "Hogedrukreinigingsservice",
-        "description": "Oppervlakken reinigen met hogedruk water.",
-        "priceUnit": null,
-        "features": []
+        "description": "Reinigen van buitenoppervlakken zoals opritten, terrassen en gevelbekleding met hogedruk water.",
+        "priceUnit": "per vierkante meter",
+        "features": [
+          "Oprit- en looppadreiniging",
+          "Terras- en dekreiniging",
+          "Gevelbekleding reinigen",
+          "Schuttingreiniging"
+        ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 5,
+      "imageUrl": "assets/images/pressure_washing.jpg"
     },
     {
       "id": "13",
       "en": {
         "name": "Carpet Cleaning",
-        "shortDescription": "Carpet washing service",
-        "description": "Professional cleaning for carpets.",
-        "priceUnit": null,
-        "features": []
+        "shortDescription": "Deep carpet washing service",
+        "description": "Professional cleaning for carpets to remove dirt, stains, and allergens.",
+        "priceUnit": "per room",
+        "features": [
+          "Pre-treatment of stains and high-traffic areas",
+          "Hot water extraction method",
+          "Deodorizing treatment",
+          "Optional fabric protection"
+        ]
       },
       "nl": {
         "name": "Tapijtreiniging",
-        "shortDescription": "Tapijtreinigingsservice",
-        "description": "Professionele reiniging voor tapijten.",
-        "priceUnit": null,
-        "features": []
+        "shortDescription": "Diepe tapijtreinigingsservice",
+        "description": "Professionele reiniging voor tapijten om vuil, vlekken en allergenen te verwijderen.",
+        "priceUnit": "per kamer",
+        "features": [
+          "Voorbehandeling van vlekken en drukbelopen zones",
+          "Heetwaterextractiemethode",
+          "Geurverwijderingsbehandeling",
+          "Optionele stofbescherming"
+        ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 75,
+      "imageUrl": "assets/images/carpet_cleaning_service.jpg"
     },
     {
       "id": "14",
       "en": {
         "name": "Upholstery Cleaning",
-        "shortDescription": "Cleaning service for upholstery",
-        "description": "Professional cleaning for upholstered furniture.",
-        "priceUnit": null,
-        "features": []
+        "shortDescription": "Cleaning service for furniture upholstery",
+        "description": "Professional cleaning for upholstered furniture like sofas and chairs.",
+        "priceUnit": "per item",
+        "features": [
+          "Fabric type assessment",
+          "Spot and stain treatment",
+          "Gentle cleaning method suitable for upholstery",
+          "Deodorizing"
+        ]
       },
       "nl": {
         "name": "Stoffering reinigen",
-        "shortDescription": "Reinigingsservice voor stoffering",
-        "description": "Professionele reiniging voor gestoffeerde meubels.",
-        "priceUnit": null,
-        "features": []
+        "shortDescription": "Reinigingsservice voor meubelstoffering",
+        "description": "Professionele reiniging voor gestoffeerde meubels zoals banken en stoelen.",
+        "priceUnit": "per item",
+        "features": [
+          "Beoordeling van stoftype",
+          "Vlek- en plekbehandeling",
+          "Zachte reinigingsmethode geschikt voor stoffering",
+          "Geurverwijdering"
+        ]
       },
-      "price": null,
-      "imageUrl": null
+      "price": 80, // Example price per sofa
+      "imageUrl": "assets/images/upholstery_cleaning.jpg"
     }
   ]
 }
