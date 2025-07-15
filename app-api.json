@@ -3,7 +3,7 @@
     {
       "id": "1",
       "en": {
-        "name": "House Cleaning Service 123",
+        "name": "House Cleaning Service",
         "shortDescription": "Professional cleaning for residential spaces",
         "description": "Match & Clean Bureau offers professional cleaning services tailored to the needs of residential spaces. Ideal for regular upkeep.",
         "priceUnit": "per hour",
@@ -29,8 +29,7 @@
         ]
       },
       "price": 35,
-      "imageUrl": "https://images.pexels.com/photos/6195274/pexels-photo-6195274.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/6195274/pexels-photo-6195274.jpeg"
     },
     {
       "id": "2",
@@ -448,6 +447,28 @@
       },
       "price": 80,
       "imageUrl": "https://images.pexels.com/photos/4401538/pexels-photo-4401538.jpeg"
+    },
+    {
+      "id": "15",
+      "en": {
+        "name": "test",
+        "shortDescription": "test",
+        "description": "test",
+        "priceUnit": "1",
+        "features": [
+          ""
+        ]
+      },
+      "nl": {
+        "name": "",
+        "shortDescription": "",
+        "description": "",
+        "priceUnit": "",
+        "features": []
+      },
+      "price": 5,
+      "imageUrl": "",
+      "type": "main"
     }
   ]
 }
