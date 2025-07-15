@@ -3,7 +3,7 @@
     {
       "id": "1",
       "en": {
-        "name": "House Cleaning Service 123",
+        "name": "House Cleaning Service",
         "shortDescription": "Professional cleaning for residential spaces",
         "description": "Match & Clean Bureau offers professional cleaning services tailored to the needs of residential spaces. Ideal for regular upkeep.",
         "priceUnit": "per hour",
@@ -16,7 +16,7 @@
         ]
       },
       "nl": {
-        "name": "Schoonmaakdienst voor woningen 123",
+        "name": "Schoonmaakdienst voor woningen",
         "shortDescription": "Professionele schoonmaak voor woonruimtes",
         "description": "Match & Clean Bureau biedt professionele schoonmaakdiensten afgestemd op de behoeften van woonruimtes. Ideaal voor regulier onderhoud.",
         "priceUnit": "per uur",
@@ -29,8 +29,7 @@
         ]
       },
       "price": 35,
-      "imageUrl": "https://images.pexels.com/photos/6195274/pexels-photo-6195274.jpeg",
-      "type": "main"
+      "imageUrl": "https://images.pexels.com/photos/6195274/pexels-photo-6195274.jpeg"
     },
     {
       "id": "2",
@@ -61,8 +60,7 @@
         ]
       },
       "price": 180,
-      "imageUrl": "https://images.pexels.com/photos/28576625/pexels-photo-28576625.jpeg",
-      "type": "main"
+      "imageUrl": "https://images.pexels.com/photos/28576625/pexels-photo-28576625.jpeg"
     },
     {
       "id": "3",
@@ -93,8 +91,7 @@
         ]
       },
       "price": 250,
-      "imageUrl": "https://images.pexels.com/photos/3177257/pexels-photo-3177257.jpeg",
-      "type": "main"
+      "imageUrl": "https://images.pexels.com/photos/3177257/pexels-photo-3177257.jpeg"
     },
     {
       "id": "4",
@@ -127,8 +124,7 @@
         ]
       },
       "price": 150,
-      "imageUrl": "https://images.pexels.com/photos/12091690/pexels-photo-12091690.jpeg",
-      "type": "main"
+      "imageUrl": "https://images.pexels.com/photos/12091690/pexels-photo-12091690.jpeg"
     },
     {
       "id": "5",
@@ -159,8 +155,7 @@
         ]
       },
       "price": 280,
-      "imageUrl": "https://images.pexels.com/photos/9462341/pexels-photo-9462341.jpeg",
-      "type": "main"
+      "imageUrl": "https://images.pexels.com/photos/9462341/pexels-photo-9462341.jpeg"
     },
     {
       "id": "6",
@@ -197,8 +192,7 @@
         ]
       },
       "price": 60,
-      "imageUrl": "https://images.pexels.com/photos/3867598/pexels-photo-3867598.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/3867598/pexels-photo-3867598.jpeg"
     },
     {
       "id": "7",
@@ -235,8 +229,7 @@
         ]
       },
       "price": 120,
-      "imageUrl": "https://images.pexels.com/photos/10567360/pexels-photo-10567360.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/10567360/pexels-photo-10567360.jpeg"
     },
     {
       "id": "8",
@@ -271,8 +264,7 @@
         ]
       },
       "price": 50,
-      "imageUrl": "https://images.pexels.com/photos/9462144/pexels-photo-9462144.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/9462144/pexels-photo-9462144.jpeg"
     },
     {
       "id": "9",
@@ -307,8 +299,7 @@
         ]
       },
       "price": 45,
-      "imageUrl": "https://images.pexels.com/photos/5331118/pexels-photo-5331118.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/5331118/pexels-photo-5331118.jpeg"
     },
     {
       "id": "10",
@@ -339,8 +330,7 @@
         ]
       },
       "price": 270,
-      "imageUrl": "https://images.pexels.com/photos/8055202/pexels-photo-8055202.jpeg",
-      "type": "main"
+      "imageUrl": "https://images.pexels.com/photos/8055202/pexels-photo-8055202.jpeg"
     },
     {
       "id": "11",
@@ -369,8 +359,7 @@
         ]
       },
       "price": 7,
-      "imageUrl": "https://images.pexels.com/photos/27264217/pexels-photo-27264217.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/27264217/pexels-photo-27264217.jpeg"
     },
     {
       "id": "12",
@@ -399,8 +388,7 @@
         ]
       },
       "price": 5,
-      "imageUrl": "https://images.pexels.com/photos/5652626/pexels-photo-5652626.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/5652626/pexels-photo-5652626.jpeg"
     },
     {
       "id": "13",
@@ -429,8 +417,7 @@
         ]
       },
       "price": 75,
-      "imageUrl": "https://images.pexels.com/photos/9462144/pexels-photo-9462144.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/9462144/pexels-photo-9462144.jpeg"
     },
     {
       "id": "14",
@@ -459,8 +446,7 @@
         ]
       },
       "price": 80,
-      "imageUrl": "https://images.pexels.com/photos/4401538/pexels-photo-4401538.jpeg",
-      "type": "addon"
+      "imageUrl": "https://images.pexels.com/photos/4401538/pexels-photo-4401538.jpeg"
     }
   ]
 }
