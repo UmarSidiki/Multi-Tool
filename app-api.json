@@ -3,7 +3,7 @@
     {
       "id": "1",
       "en": {
-        "name": "House Cleaning Service",
+        "name": "House Cleaning Service 123",
         "shortDescription": "Professional cleaning for residential spaces",
         "description": "Match & Clean Bureau offers professional cleaning services tailored to the needs of residential spaces. Ideal for regular upkeep.",
         "priceUnit": "per hour",
@@ -16,7 +16,7 @@
         ]
       },
       "nl": {
-        "name": "Schoonmaakdienst voor woningen",
+        "name": "Schoonmaakdienst voor woningen 123",
         "shortDescription": "Professionele schoonmaak voor woonruimtes",
         "description": "Match & Clean Bureau biedt professionele schoonmaakdiensten afgestemd op de behoeften van woonruimtes. Ideaal voor regulier onderhoud.",
         "priceUnit": "per uur",
