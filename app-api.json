@@ -461,6 +461,26 @@
       "price": 80,
       "imageUrl": "https://images.pexels.com/photos/4401538/pexels-photo-4401538.jpeg",
       "type": "addon"
+    },
+    {
+      "id": "15",
+      "en": {
+        "name": "test",
+        "shortDescription": "test",
+        "description": "test description",
+        "priceUnit": "Per Visit",
+        "features": []
+      },
+      "nl": {
+        "name": "",
+        "shortDescription": "",
+        "description": "",
+        "priceUnit": "",
+        "features": []
+      },
+      "price": 50,
+      "imageUrl": "https://pub-646e588f8ac04cedb7714bcf5473b900.r2.dev/service-1752850193701-my9amukpcks.png",
+      "type": "main"
     }
   ]
 }
