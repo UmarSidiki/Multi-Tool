@@ -468,14 +468,14 @@
         "name": "Test",
         "shortDescription": "Test",
         "description": "Test",
-        "priceUnit": "",
+        "priceUnit": "per hour",
         "features": []
       },
       "nl": {
         "name": "Test",
         "shortDescription": "Test",
         "description": "Test",
-        "priceUnit": "",
+        "priceUnit": "per hour",
         "features": []
       },
       "price": 50,
