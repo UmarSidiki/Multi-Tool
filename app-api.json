@@ -461,6 +461,32 @@
       "price": 80,
       "imageUrl": "https://images.pexels.com/photos/4401538/pexels-photo-4401538.jpeg",
       "type": "addon"
+    },
+    {
+      "id": "15",
+      "en": {
+        "name": "test",
+        "shortDescription": "test",
+        "description": "test",
+        "priceUnit": "pere test",
+        "features": [
+          "test",
+          "test"
+        ]
+      },
+      "nl": {
+        "name": "test",
+        "shortDescription": "test",
+        "description": "test",
+        "priceUnit": "per test",
+        "features": [
+          "test",
+          "test"
+        ]
+      },
+      "price": 50,
+      "imageUrl": "https://pub-646e588f8ac04cedb7714bcf5473b900.r2.dev/service-1752852574769-wdkl90vzf6e.png",
+      "type": "main"
     }
   ]
 }
