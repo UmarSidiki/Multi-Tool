@@ -461,6 +461,26 @@
       "price": 80,
       "imageUrl": "https://images.pexels.com/photos/4401538/pexels-photo-4401538.jpeg",
       "type": "addon"
+    },
+    {
+      "id": "15",
+      "en": {
+        "name": "Housekeeping",
+        "shortDescription": "HouseKeeping for hotels",
+        "description": "",
+        "priceUnit": "Per Hour ",
+        "features": []
+      },
+      "nl": {
+        "name": "Huishouding",
+        "shortDescription": "professionele schoonmaak in voor hotels en andere huishoudelijke klusjes.",
+        "description": "professionele schoonmaak in voor hotels en andere huishoudelijke klusjes.",
+        "priceUnit": "Per uur",
+        "features": []
+      },
+      "price": 275,
+      "imageUrl": "https://pub-646e588f8ac04cedb7714bcf5473b900.r2.dev/service-1753018228600-ddude8ygkeo.jpeg",
+      "type": "main"
     }
   ]
 }
