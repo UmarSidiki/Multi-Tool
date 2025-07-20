@@ -526,16 +526,16 @@
       "id": "18",
       "en": {
         "name": "Gym Cleaning Service",
-        "shortDescription": "Cleaning for gym's",
+        "shortDescription": "Cleaning for gym's/Fysio's",
         "description": "",
         "priceUnit": "Per Hour",
         "features": []
       },
       "nl": {
-        "name": "sportscholen schoonmaak",
-        "shortDescription": "speciale schoonmaak voor sportscholen",
+        "name": "Sportscholen/Fysio's schoonmaak",
+        "shortDescription": "Speciale schoonmaak voor Sportscholen/Fysio's",
         "description": "",
-        "priceUnit": "",
+        "priceUnit": "Per Uur",
         "features": []
       },
       "price": 0,
