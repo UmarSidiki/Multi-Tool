@@ -501,6 +501,46 @@
       "price": 0,
       "imageUrl": "https://pub-646e588f8ac04cedb7714bcf5473b900.r2.dev/service-1753020958424-8tpqfzhedsm.webp",
       "type": "main"
+    },
+    {
+      "id": "17",
+      "en": {
+        "name": "Lening for schools ",
+        "shortDescription": "Special Professional cleaning for schools",
+        "description": "",
+        "priceUnit": "Per Hour",
+        "features": []
+      },
+      "nl": {
+        "name": "schoonmaak voor basisscholen",
+        "shortDescription": "Speciale Professionele schoonmaak voor basisscholen",
+        "description": "",
+        "priceUnit": "Per Uur",
+        "features": []
+      },
+      "price": 0,
+      "imageUrl": "https://pub-646e588f8ac04cedb7714bcf5473b900.r2.dev/service-1753021598406-go3vwkq2u6m.jpeg",
+      "type": "main"
+    },
+    {
+      "id": "18",
+      "en": {
+        "name": "Gym Cleaning Service",
+        "shortDescription": "Cleaning for gym's",
+        "description": "",
+        "priceUnit": "Per Hour",
+        "features": []
+      },
+      "nl": {
+        "name": "sportscholen schoonmaak",
+        "shortDescription": "speciale schoonmaak voor sportscholen",
+        "description": "",
+        "priceUnit": "",
+        "features": []
+      },
+      "price": 0,
+      "imageUrl": "https://pub-646e588f8ac04cedb7714bcf5473b900.r2.dev/service-1753021933559-xis5v1ippd.jpeg",
+      "type": "main"
     }
   ]
 }
