@@ -481,6 +481,26 @@
       "price": 275,
       "imageUrl": "https://pub-646e588f8ac04cedb7714bcf5473b900.r2.dev/service-1753018228600-ddude8ygkeo.jpeg",
       "type": "main"
+    },
+    {
+      "id": "16",
+      "en": {
+        "name": "accommodation Cleaning",
+        "shortDescription": "Special cleaning for accommodation service",
+        "description": "professional accommodation cleaning",
+        "priceUnit": "Per hour",
+        "features": []
+      },
+      "nl": {
+        "name": "Vakantieparken",
+        "shortDescription": "Vakantieparken en huisjes",
+        "description": "Professionele schoonmaak voor vakantie parken en huisjes",
+        "priceUnit": "Per uur",
+        "features": []
+      },
+      "price": 0,
+      "imageUrl": "https://pub-646e588f8ac04cedb7714bcf5473b900.r2.dev/service-1753020958424-8tpqfzhedsm.webp",
+      "type": "main"
     }
   ]
 }
